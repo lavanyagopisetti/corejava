@@ -1,5 +1,6 @@
 package InterfaceExaple;
 
-public class Account {
+public interface Account {
+void deliveryCharges();
 
 }
