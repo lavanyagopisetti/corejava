@@ -4,10 +4,10 @@ public class EmployeeDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-      employee ob=new employee("lavanya",132);
+      Employee ob=new Employee("lavanya",132);
       System.out.println(ob);
-      employee CompanyName;//accessing the static variable using classname
-      ob=new employee("sweety",432);
+      Employee CompanyName;//accessing the static variable using classname
+      ob=new Employee("sweety",432);
       System.out.println(ob);
       
 	}
